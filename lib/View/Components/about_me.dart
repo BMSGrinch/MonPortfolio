@@ -19,7 +19,7 @@ class AboutMe extends StatelessWidget {
             ),
           ),
           Text(
-            "Bonjour je suis Jonathan Ouattara, un developpeur Flutter passionné par la création d'applications mobiles innovantes.J'ai une solide expérience dans le développement d'applications Flutter et je suis toujours à la recherche de noiveaux défis pour améliorer mes compétences.",
+            "Bonjour, je suis Jonathan Ouattara, un développeur Flutter passionné par la création d'applications mobiles innovantes.J'ai une solide expérience dans le développement d'applications Flutter et je suis toujours à la recherche de nouveaux défis pour améliorer mes compétences.N'hésitez pas à me contacter pour discuter de vos projets ou simplement échanger sur la tech !",
             style: TextStyle(fontSize: Responsive.isMobile(context) ? 18 : 20),
             textAlign: TextAlign.justify,
           ),

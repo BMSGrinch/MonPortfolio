@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_portfolio/Responsive/responsive.dart';
 import 'package:responsive_portfolio/Utils/colors.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class TopBar extends StatelessWidget {
   final ScrollController scrollController;
@@ -111,6 +112,31 @@ class TopBar extends StatelessWidget {
           },
           child: Text(
             "Contact",
+            style: TextStyle(
+              fontSize: 20,
+              color: textColor,
+              fontWeight: FontWeight.w900,
+            ),
+          ),
+        ),
+      ),
+
+      Padding(
+        padding: EdgeInsets.symmetric(
+          horizontal: 10,
+          vertical: isMobile ? 20 : 0,
+        ),
+        child: TextButton(
+          onPressed: () {
+            launchUrl(
+              Uri.parse(
+                "https://github.com/BMSGrinch/jonathanouattara.github.io/blob/main/cv-Ouattara-kindouli-Jonathan.pdf",
+              ),
+              mode: LaunchMode.externalApplication,
+            );
+          },
+          child: Text(
+            "Mon CV",
             style: TextStyle(
               fontSize: 20,
               color: textColor,

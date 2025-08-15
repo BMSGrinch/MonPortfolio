@@ -52,7 +52,7 @@ class ProfileAndIntro extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            "Bonjour 👌",
+                            "Bonjour !",
                             style: TextStyle(
                               fontSize: Responsive.isMobile(context) ? 36 : 40,
                               color: Colors.red,
@@ -60,7 +60,7 @@ class ProfileAndIntro extends StatelessWidget {
                             ),
                           ),
                           Text(
-                            "Ouattara Jonathan,\n Developpeur et étudiant MIAGE\n Specialisé dans le developpement d'application flutter.\nAidez moi à trouver du taf par pitié mdr",
+                            "Ouattara Kindouli Jonathan,\nDéveloppeur web/mobile fullstack\nSpécialisé dans le développement d'applications Flutter.\nAidez-moi à trouver du taf (promis je code bien 😄)",
                           ),
                         ],
                       ),

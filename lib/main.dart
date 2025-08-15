@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Portofolio Tuto',
+      title: 'Jonathan Ouattara - Portfolio Développeur Flutter',
       debugShowCheckedModeBanner: false,
       home: DevelopperPorfolio(),
     );
